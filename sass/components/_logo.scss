@@ -1,0 +1,19 @@
+/* Logo*/
+.logo,
+.logo__text
+.logo-sec {
+    color: var(--accent-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration-line: none;
+}
+
+.logo__text {
+    color: var(--main-text-color);
+}
+
+.logo-sec {
+    color: var(--main-background-color);
+}

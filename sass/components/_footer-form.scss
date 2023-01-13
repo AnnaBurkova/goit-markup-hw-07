@@ -1,0 +1,68 @@
+.subscribe{
+    width: 570px;
+    margin: 0px 0px 0px auto;
+}
+
+.subscribe-form{
+    display: flex;
+    align-items: center;
+}
+
+.subscribe__text{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--selection-text-color);
+}
+
+.subscribe-form__input {
+    width: 358px; 
+    height: 50px;
+    margin-right: 12px;
+    padding: 16px;
+    background-color: var(--hero-background-color);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;    
+    color: var(--main-background-color);
+}
+
+.subscribe-form__button {
+    position: relative;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color:var(--selection-text-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+    width: 200px;
+    padding: 10px 62px 10px 28px;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-form__icon{
+    position: absolute;
+    top: 25%;
+    right: 22px;
+    width: 24px;
+    height: 24px
+}
+
+.subscribe-form__button:hover,
+.subscribe-form__button:focus {
+    background-color: var(--button-main-hero-color);
+}
+
+.subscribe-form__button:active {
+    background-color: var(--button-active-hero-color);
+}

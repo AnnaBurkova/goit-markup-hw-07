@@ -1,0 +1,30 @@
+.button-form {
+    display: flex;
+    padding: 10px 52px; 
+    margin-left: auto;
+    margin-right: auto;
+    font-family: inherit;
+    color: var(--selection-text-color);
+    background-color:var(--button-main-hero-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;   
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    min-width: 200px;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-form:hover,
+.button-form:focus {
+    background-color: var(--button-main-hero-color);
+}
+
+.button-form:active {
+    background-color: var(--button-active-hero-color);
+}

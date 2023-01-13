@@ -1,0 +1,67 @@
+/* Hero */
+.hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: var(--heronew-background-color);
+    text-align: center;
+}
+
+.overlay {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-image:
+         linear-gradient(rgba(47, 48, 58, 0.4),
+              rgba(47, 48, 58, 0.4)),
+         url('/images/hero.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.hero__title {
+    width: 696px;
+    margin: auto;
+    margin-bottom: 30px;
+
+    color: var(--selection-text-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+
+.hero__button {
+    font-family: inherit;
+    color: var(--selection-text-color);
+    background-color: var(--button-main-hero-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    padding: 10px 32px;
+    min-width: 216px;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero__button:hover,
+.hero__button:focus {
+    background-color: var(--button-main-hero-color);
+}
+
+.hero__button:active {
+    background-color: var(--button-active-hero-color);
+}
+
+
+
+

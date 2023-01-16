@@ -1,0 +1,47 @@
+/* Connect-nav */
+.connect-nav {
+    @extend %list;
+    display: flex;
+    margin-left: auto;
+}
+
+.connect-nav__item {
+    margin-left: 40px;
+}
+
+.connect-nav__link {
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: $color-text-additional;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration-line: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+    color: $color-accent;
+}
+}
+
+.connect-nav__icon-envelope {
+    display: block;
+    width: 16px;
+    height: 12px;
+    fill: currentColor;
+    margin-right: 10px;
+    align-self: center;
+}
+
+.connect-nav__icon-smartphone {
+    display: block;
+    width: 10px;
+    height: 16px;
+    fill: currentColor;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,16 +1,20 @@
 /* Work*/
-.work__title {
-    margin-bottom: 50px;
+.work {
+    @extend %section;
+}
 
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
+.work-container {
+    @extend %container;
+}
+
+.work__title {
+   @extend %section-title;
 }
 
 .work__examples {
     display: flex;
     align-items: center;  
+    @extend %list;
 }
 
 .work__item:not(:last-child) {
@@ -42,5 +46,5 @@
      line-height: 1.14;
      letter-spacing: 0.03em;
      text-transform: uppercase;
-     color: var(--selection-text-color);
+     color: $color-text-selection;
 }

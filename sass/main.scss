@@ -1,22 +1,31 @@
 @import "./utils/variables";
-@import "./components/page-header";
-@import "./components/logo";
-@import "./components/hero";
-@import "./components/benefits";
-@import "./components/work";
-@import "./components/team";
-@import "./components/social-networks\ icons";
-@import "./components/clients";
-@import "./components/footer";
-@import './components/footer-contacts';
-@import "./components/footer-form";
-@import "./components/projects-buttons";
-@import "./components/projects";
-@import "./components/projects-set";
-@import "./components/backdrop";
-@import "./components/backdrop-button-modal";
-@import "./components/backdrop-form";
-@import "./components/backdrop-checkbox";
-@import "./components/backdrop-comments";
-@import "./components/backdrop-button";
+@import "./utils/placeholders";
+
+@import "./components/_header.scss/page-header";
+@import "./components/_shared.scss/logo";
+@import "./components/_header.scss/site-nav";
+@import "./components/_header.scss/connect-nav";
+
+@import "./components/_sections.scss/hero";
+@import "./components/_sections.scss/benefits";
+@import "./components/_sections.scss/work";
+@import "./components/_sections.scss/team";
+@import "./components/_shared.scss/social-networks\ icons";
+@import "./components/_sections.scss/clients";
+
+@import "./components/_footer.scss/page-footer";
+@import "./components/_footer.scss/footer-contacts";
+@import "./components/_footer.scss/footer-form";
+
+@import "./components/_backdrop.scss/backdrop";
+@import "./components/_backdrop.scss/backdrop-button-modal";
+@import "./components/_backdrop.scss/backdrop-form";
+@import "./components/_backdrop.scss/backdrop-comments";
+@import "./components/_backdrop.scss/backdrop-checkbox";
+@import "./components/_backdrop.scss/backdrop-button";
+
+@import "./components/_portfolio.scss/projects";
+@import "./components/_portfolio.scss/projects-buttons";
+@import "./components/_portfolio.scss/projects-set";
+
 

@@ -2,7 +2,7 @@
 .logo,
 .logo__text
 .logo-sec {
-    color: var(--accent-color);
+    color: $color-accent;
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -11,9 +11,9 @@
 }
 
 .logo__text {
-    color: var(--main-text-color);
+    color: $color-text-main;
 }
 
 .logo-sec {
-    color: var(--main-background-color);
+    color: $color-background-main;
 }

@@ -1,10 +1,20 @@
 /* Benefits */
 .benefits {
     padding-top: 94px;
+    @extend  %section;
+}
+.benefits-container{
+    @extend %container; 
+}
+
+.benefits__title {
+    @extend %section-title;
+    @extend %visually-hidden;
 }
 
 .benefits-examples {
     display: flex;
+    @extend %list;
 }
 
 .benefits-examples__item:not(:last-child) {
@@ -13,7 +23,7 @@
 
 .benefits-examples__icon {
     display: flex;
-    background-color: var(--section-team-background-color);
+    background-color: $color-background-section-team;
     height: 120px;
     margin-bottom: 30px;
     border-radius: 4px;
@@ -28,7 +38,7 @@
 
 .benefits-examples__title {
     margin-bottom: 10px;
-    color: var(--main-text-color);
+    color: $color-text-main;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -38,7 +48,7 @@
 .benefits-examples__text {
     width: 270px;
 
-    color: var(--additional-text-color);
+    color: $color-text-additional;
     line-height: 1.71;
     font-size: 14px;
 }

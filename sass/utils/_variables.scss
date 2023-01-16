@@ -1,21 +1,22 @@
-:root {
-    --main-text-color: #212121;
-    --additional-text-color: #757575;
-    --accent-color: #2196F3;
-    --selection-text-color: #FFFFFF;
-    --main-background-color: #FFFFFF;
-    --hero-background-color: #2F303A;
-    --heronew-background-color: #C4C4C4;
-    --section-work-background-color: #F5F5F5;
-    --section-team-background-color: #F5F4FA;
-    --footer-text-color: rgba(255, 255, 255, 0.6);
-    --button-main-hero-color: #2196F3;
-    --button-active-hero-color: #188CE8;
-}
+
+    $color-text-main: #212121;
+    $color-text-additional:#757575;
+    $color-text-selection:#FFFFFF;
+    $color-background-main:#FFFFFF;
+    $color-backround-hero:#2F303A;
+    $color-background-hero-new:#C4C4C4;
+    $color-background-section-work:#F5F5F5;
+    $color-background-section-team:#F5F4FA;
+    $color-accent:#2196F3;
+    $color-text-footer:rgba(255, 255, 255, 0.6);
+    $color-button-main:#2196F3;
+    $color-button-active:#188CE8;
+
+    $bg-color:$color-background-main;
 
 body {
-    background-color: var(--main-background-color);
-    color: var(--main-text-color);
+    background-color: $color-background-main;
+    color: $color-text-main;
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
 }
@@ -41,52 +42,13 @@ p {
     margin: 0;
 }
 
-
-.list {
-    list-style: none;
-    padding-left: 0;
-    margin: 0;
-}
-
-.container {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-}
-
-.section {
-    padding-bottom: 94px;
-}
-
-.section-title {
-    color: var(--main-text-color);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-}
-
-.page{
-    padding-top: 80px;
-}
-
-.visually-hidden {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
-}
-
-
 label a {
-    color: var(--accent-color);
+    color: $color-accent;
     text-decoration-skip-ink: none;
 }
-    
+
+footer {
+    background-color: $color-backround-hero;
+    align-items: baseline;
+
+}

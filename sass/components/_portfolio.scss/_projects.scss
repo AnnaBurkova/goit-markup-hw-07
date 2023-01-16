@@ -1,0 +1,20 @@
+.portfolio {
+    padding-top: 94px;
+    
+}
+
+.portfolio-container{
+    padding-top: 94px;
+    @extend %section;
+    @extend %container;
+}
+
+.portfolio__title {
+    @extend %section-title;
+    @extend %visually-hidden;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}

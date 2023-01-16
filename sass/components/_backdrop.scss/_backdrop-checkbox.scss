@@ -1,3 +1,4 @@
+// Backdrop-checkbox
 .form-checkbox {
     margin-top: 20px;
     margin-bottom: 30px;
@@ -15,7 +16,7 @@
     letter-spacing: 0.03em;
     padding-left: 20px;
 
-    color: var(--additional-text-color)
+    color: $color-text-additional;
 }
 
 .form-checkbox__input {
@@ -32,10 +33,10 @@
     border: #212121 solid 2px;
     border-radius: 2px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.form-checkbox__input:checked +.form-checkbox__icon{
-    background-color: var(--accent-color);
+    .form-checkbox__input:checked +&{
+    background-color: $color-accent;
     border-radius: 2px;
-    border-color: var(--accent-color);
+    border-color: $color-accent;
+}
 }

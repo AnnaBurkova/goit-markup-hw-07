@@ -1,3 +1,4 @@
+// Backdrop-form
 .form__tittle{
     margin-bottom: 12px;
     font-weight: 700;
@@ -5,7 +6,7 @@
     line-height: 1.15;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--main-text-color);
+    color: $color-text-main;
 }
 
 .form__field{
@@ -24,7 +25,7 @@
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.01em;
-    color: var(--additional-text-color);
+    color: $color-text-additional;
 }
 
 .form__input{
@@ -35,6 +36,12 @@
     border-radius: 4px;
     cursor: pointer;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+    border-color:$color-accent;
+    outline: none;
+    }
 }
 
 .form__icon{
@@ -45,15 +52,36 @@
     left: 12px;
     fill: var(--main-text-color);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    .form__input:hover +&,
+    .form__input:focus +& {
+    border-color: $color-accent;
+    fill:$color-accent;
 }
-.form__input:hover,
-.form__input:focus{
-    border-color: var(--accent-color);
-    outline:none;
 }
 
-.form__input:hover +.form__icon,
-.form__input:focus +.form__icon{
-    border-color: var(--accent-color);
-    fill:var(--accent-color);
+.form__comments {
+    display: block;
+    resize: none;
+    height: 120px;
+    width: 100%;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    padding: 12px 16px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        border-color: $color-accent;
+        outline: none;
+    }
+
+    &::placeholder {
+        list-style: none;
+        font-size: 12px;
+        line-height: 1.16;
+        letter-spacing: 0.01em;
+
+        color: rgba(117, 117, 117, 0.5);
+    }
 }

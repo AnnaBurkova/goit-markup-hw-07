@@ -1,30 +1,30 @@
 @import "./utils/variables";
 @import "./utils/placeholders";
 
-@import "./components/_header.scss/page-header";
-@import "./components/_shared.scss/logo";
-@import "./components/_header.scss/site-nav";
-@import "./components/_header.scss/connect-nav";
+@import "./components/header/page-header";
+@import "./components/shared/logo";
+@import "./components/header/nav-list";
+@import "./components/header/header-connect";
 
-@import "./components/_sections.scss/hero";
-@import "./components/_sections.scss/benefits";
-@import "./components/_sections.scss/work";
-@import "./components/_sections.scss/team";
-@import "./components/_shared.scss/social-networks\ icons";
-@import "./components/_sections.scss/clients";
+@import "./components/sections/hero";
+@import "./components/sections/benefits";
+@import "./components/sections/work";
+@import "./components/sections/team";
+@import "./components/shared/social-networks\ icons";
+@import "./components/sections/clients";
 
-@import "./components/_footer.scss/page-footer";
-@import "./components/_footer.scss/footer-contacts";
-@import "./components/_footer.scss/footer-form";
+@import "./components/footer/page-footer";
+@import "./components/footer/footer-contacts";
+@import "./components/footer/footer-form";
 
-@import "./components/_backdrop.scss/backdrop";
-@import "./components/_backdrop.scss/backdrop-button-modal";
-@import "./components/_backdrop.scss/backdrop-form";
-@import "./components/_backdrop.scss/backdrop-checkbox";
-@import "./components/_backdrop.scss/backdrop-button";
+@import "./components/backdrop/backdrop";
+@import "./components/backdrop/backdrop-button-modal";
+@import "./components/backdrop/backdrop-form";
+@import "./components/backdrop/backdrop-checkbox";
+@import "./components/backdrop/backdrop-button";
 
-@import "./components/_portfolio.scss/projects";
-@import "./components/_portfolio.scss/projects-buttons";
-@import "./components/_portfolio.scss/projects-set";
+@import "./components/portfolio/projects";
+@import "./components/portfolio/projects-buttons";
+@import "./components/portfolio/projects-set";
 
 

@@ -13,7 +13,7 @@
     @extend %section-title;
 }
 
-.team-set {
+.team__set {
     display: flex;
     @extend %list;
 }
@@ -25,7 +25,7 @@
          0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 
-    .team-set &:not(:last-child) {
+    .team__set &:not(:last-child) {
         margin-right: 30px;
 }
 }

@@ -13,12 +13,12 @@
     @extend %section-title;
 }
 
-.clients-set {
+.clients__set {
     display: flex;
     @extend %list;
 }
 
-.clients-set__item {
+.clients__item {
     display: flex;
     width: 170px;
     height: 92px;
@@ -37,7 +37,7 @@
 }           
 }
 
-.clients-set__link {
+.clients__link {
     display: flex;
     position: relative;
     width: 170px;
@@ -47,7 +47,7 @@
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-set__icon {
+.clients__icon {
     display: inline-block;
     width: 106px;
     height: 60px;
@@ -59,8 +59,8 @@
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
-    .clients-set__link:hover &,
-    .clients-set__link:focus & {
+    .clients__link:hover &,
+    .clients__link:focus & {
         fill: $color-accent;
 }
 }

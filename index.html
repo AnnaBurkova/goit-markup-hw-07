@@ -8,35 +8,35 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
-     <link rel="stylesheet" href="./dist/css/main.min.css">
+     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body class="page">
    
     <!--Хедер-->
     <header class="page-header">
         <div class="nav-container">
-        <nav class="main-nav">
+        <nav class="header__nav">
             <a class="logo" href="./index.html">Web<span class="logo__text">Studio</span>
             </a>
     
-            <ul class="site-nav">
-                <li class="site-nav__item"><a href="./index.html" class="site-nav__link current">Студія</a></li>
-                <li class="site-nav__item"><a href="./portfolio.html" class="site-nav__link ">Портфоліо</a></li>
-                <li class="site-nav__item"><a href="" class="site-nav__link">Контакти</a></li>
+            <ul class="nav__list">
+                <li class="nav__item"><a href="./index.html" class="nav__link current">Студія</a></li>
+                <li class="nav__item"><a href="./portfolio.html" class="nav__link ">Портфоліо</a></li>
+                <li class="nav__item"><a href="" class="nav__link">Контакти</a></li>
             </ul>
         </nav>
-        <ul class="connect-nav">
-            <li class="connect-nav__item">
-                 <a href="mailto:info@devstudio.com" class="connect-nav__link">
-                 <svg class="connect-nav__icon-envelope">
+        <ul class="header__connect">
+            <li class="connect__item">
+                 <a href="mailto:info@devstudio.com" class="connect__link">
+                 <svg class="connect__icon-envelope">
                      <use href="./images/icons.svg#envelope" width="16" height="12"></use>
                  </svg>
                  info@devstudio.com
                  </a>
             </li>
-            <li class="connect-nav__item">
-                <a href="tel:+380961111111" class="connect-nav__link">
-                <svg class="connect-nav__icon-smartphone">
+            <li class="connect__item">
+                <a href="tel:+380961111111" class="connect__link">
+                <svg class="connect__icon-smartphone">
                      <use href="./images/icons.svg#smartphone" width="10" height="16"></use>
                  </svg>
                  +38 096 111 11 11
@@ -60,42 +60,45 @@
      <section class="benefits">
         <div class="benefits-container">
         <h2 class="benefits__title">Наші особливості</h2>
-        <ul class="benefits-examples">
-             <li class="benefits-examples__item">
-                 <div class="benefits-examples__icon">
-                    <svg class= "benefits-examples__icon-svg">
+        <ul class="benefits__set">
+             <li class="benefits__item">
+                 <div class="benefits__icon">
+                    <svg class= "benefits__icon-svg">
                         <use href="./images/icons.svg#antena" width="70" height="70"></use>
                     </svg>
                  </div>
-                 <h3 class="benefits-examples__title">УВАГА ДО ДЕТАЛЕЙ</h3>
-                 <p class="benefits-examples__text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                 <h3 class="benefits__name">УВАГА ДО ДЕТАЛЕЙ</h3>
+                 <p class="benefits__text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
              </li>
-             <li class="benefits-examples__item">
-                <div class="benefits-examples__icon">
-                    <svg class="benefits-examples__icon-svg">
+            <ul class="benefits__set">
+                <li class="benefits__item">
+                    <div class="benefits__icon">
+                        <svg class="benefits__icon-svg">
                      <use href="./images/icons.svg#clock" width="70" height="70"></use> 
                     </svg>
                 </div>
-                 <h3 class="benefits-examples__title">ПУНКТУАЛЬНІСТЬ</h3>
-                 <p class="benefits-examples__text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                 <h3 class="benefits__name">ПУНКТУАЛЬНІСТЬ</h3>
+                 <p class="benefits__text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
              </li>
-             <li class="benefits-examples__item">
-                <div class="benefits-examples__icon">
-                     <svg class="benefits-examples__icon-svg">
+             <ul class="benefits__set">
+             <li class="benefits__item">
+                 <div class="benefits__icon">
+                    <svg class= "benefits__icon-svg">
                      <use href="./images/icons.svg#diagram" width="70" height="70"></use>
                      </svg>
                      </div>
-                 <h3 class="benefits-examples__title">ПЛАНУВАННЯ</h3> 
-                 <p class="benefits-examples__text">Так само консультація з широким активом значною мірою зумовлює.</p>
+                 <h3 class="benefits__name">ПЛАНУВАННЯ</h3> 
+                 <p class="benefits__text">Так само консультація з широким активом значною мірою зумовлює.</p>
              </li>
-             <li class="benefits-examples__item">
-                 <div class="benefits-examples__icon">
-                     <svg class="benefits-examples__icon-svg">
+             <ul class="benefits__set">
+             <li class="benefits__item">
+                 <div class="benefits__icon">
+                    <svg class= "benefits__icon-svg">
                      <use href="./images/icons.svg#astronaut" width="70" height="70"></use>
                      </svg>
                 </div>
-                 <h3 class="benefits-examples__title">СУЧАСНІ ТЕХНОЛОГІЇ</h3> 
-                 <P class="benefits-examples__text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</P>
+                 <h3 class="benefits__name">СУЧАСНІ ТЕХНОЛОГІЇ</h3> 
+                 <P class="benefits__text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</P>
               </li>
              </ul>
         </div>
@@ -105,23 +108,23 @@
      <section class="work">
         <div class="work-container">
              <h2 class="work__title">Чим ми займаємося</h2>
-             <ul class="work__examples list">
+             <ul class="work__set">
                  <li class="work__item">
-                     <div class="thumb">
-                        <img class="thumb__photo" src="./images/box-1.jpg" alt="computer">
-                        <p class="thumb__text">Десктопні додатки</p>
+                     <div class="work__thumb">
+                        <img class="work__photo" src="./images/box-1.jpg" alt="computer">
+                        <p class="work__text">Десктопні додатки</p>
                      </div>
                  </li>
                  <li class="work__item">
-                     <div class="thumb">
-                         <img class="thumb__photo" src="./images/box-2.jpg" alt="telephone">
-                         <p class="thumb__text">Мобільні додатки</p>
+                     <div class="work__thumb">
+                         <img class="work__photo" src="./images/box-2.jpg" alt="telephone">
+                         <p class="work__text">Мобільні додатки</p>
                      </div>
                 </li>
                  <li class="work__item">
-                     <div class="thumb">
-                         <img class="thumb__photo" src="./images/box-3.jpg" alt="tablet">
-                         <p class="thumb__text">Дизайнерські рішення</p>
+                     <div class="work__thumb">
+                         <img class="work__photo" src="./images/box-3.jpg" alt="tablet">
+                         <p class="work__text">Дизайнерські рішення</p>
                      </div>
                  </li>
              </ul>
@@ -132,15 +135,13 @@
      <section class="team">
         <div class="team-container">
         <h2 class="team__title">Наша команда</h2>
-        <ul class="team-set">
+        <ul class="team__set">
              <li class="teammate"> 
                  <img class="teammate__photo" src="./images/igor.jpg" alt="photo-igor">
                  <div class="teammate__info">
                      <h3 class="teammate__name">Ігор Дем'яненко</h3>
                      <p class="teammate__position" lang="en">Product Designer</p>
-
                      <ul class="social-networks">
-
                             <li class="social-networks__item">
                                 <a href="#" class="social-networks__link">
                                      <svg class="social-networks__icon current">
@@ -148,7 +149,6 @@
                                      </svg>
                                 </a>
                             </li>
-
                             <li class="social-networks__item">
                                 <a href="#" class="social-networks__link">
                                 <svg class="social-networks__icon">
@@ -157,7 +157,6 @@
                                 </svg>
                                 </a>
                             </li>
-
                             <li class="social-networks__item">
                                 <a href="#" class="social-networks__link">
                                 <svg class="social-networks__icon">
@@ -165,7 +164,6 @@
                                 </svg>
                                 </a>
                             </li>
-
                             <li class="social-networks__item">
                                 <a href="#" class="social-networks__link">
                                 <svg class="social-networks__icon">
@@ -298,45 +296,45 @@
     <section class="clients">
         <div class="clients-container">
          <h2 class="clients__title">Постійні клієнти</h2>
-         <ul class="clients-set">
-            <li class="clients-set__item">
-                <a href="#" class="clients-set__link">
-                    <svg class="clients-set__icon">
+         <ul class="clients__set">
+            <li class="clients__item">
+                <a href="#" class="clients__link">
+                    <svg class="clients__icon">
                         <use href="./images/icons.svg#client-1" width="106" height="60"></use>
                     </svg>
                 </a>
             </li>
-            <li class="clients-set__item">
-                <a href="#" class="clients-set__link">
-                    <svg class="clients-set__icon">
+            <li class="clients__item">
+                <a href="#" class="clients__link">
+                    <svg class="clients__icon">
                         <use href="./images/icons.svg#client-2" width="106" height="60"></use>
                     </svg>
                 </a>
             </li>
-            <li class="clients-set__item">
-                <a href="#" class="clients-set__link">
-                    <svg class="clients-set__icon">
+            <li class="clients__item">
+                <a href="#" class="clients__link">
+                    <svg class="clients__icon">
                         <use href="./images/icons.svg#client-3" width="106" height="60"></use>
                     </svg>
                 </a>
             </li>
-            <li class="clients-set__item">
-                <a href="#" class="clients-set__link">
-                    <svg class="clients-set__icon">
+            <li class="clients__item">
+                <a href="#" class="clients__link">
+                    <svg class="clients__icon">
                         <use href="./images/icons.svg#client-4" width="106" height="60"></use>
                     </svg>
                 </a>
             </li>
-            <li class="clients-set__item">
-                <a href="#" class="clients-set__link">
-                    <svg class="clients-set__icon">
+            <li class="clients__item">
+                <a href="#" class="clients__link">
+                    <svg class="clients__icon">
                         <use href="./images/icons.svg#client-5" width="106" height="60"></use>
                     </svg>
                 </a>
             </li>
-            <li class="clients-set__item">
-                <a href="#" class="clients-set__link">
-                    <svg class="clients-set__icon">
+            <li class="clients__item">
+                <a href="#" class="clients__link">
+                    <svg class="clients__icon">
                         <use href="./images/icons.svg#client-6" width="106" height="60"></use>
                     </svg>
                 </a>

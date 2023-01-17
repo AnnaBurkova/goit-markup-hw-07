@@ -1,15 +1,15 @@
 /* Site nav */
-.site-nav {
+.nav__list {
     @extend %list;
     display: flex;
     margin-left: 93px;
 }
 
-.site-nav__item:not(:last-child) {
+.nav__item:not(:last-child) {
     margin-right: 50px;
 }
 
-.site-nav__link {
+.nav__link {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;

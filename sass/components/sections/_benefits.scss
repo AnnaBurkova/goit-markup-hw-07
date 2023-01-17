@@ -12,16 +12,16 @@
     @extend %visually-hidden;
 }
 
-.benefits-examples {
+.benefits__set {
     display: flex;
     @extend %list;
 }
 
-.benefits-examples__item:not(:last-child) {
+.benefits__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.benefits-examples__icon {
+.benefits__icon {
     display: flex;
     background-color: $color-background-section-team;
     height: 120px;
@@ -31,12 +31,12 @@
     align-items: center;
 }
 
-.benefits-examples__icon-svg{
+.benefits__icon-svg{
     width: 70px;
     height: 70px;
 }
 
-.benefits-examples__title {
+.benefits__name {
     margin-bottom: 10px;
     color: $color-text-main;
     font-weight: 700;
@@ -45,7 +45,7 @@
     text-transform: uppercase;
 }
 
-.benefits-examples__text {
+.benefits__text {
     width: 270px;
 
     color: $color-text-additional;

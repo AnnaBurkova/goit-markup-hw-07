@@ -1,15 +1,15 @@
 /* Connect-nav */
-.connect-nav {
+.header__connect {
     @extend %list;
     display: flex;
     margin-left: auto;
 }
 
-.connect-nav__item {
+.connect__item {
     margin-left: 40px;
 }
 
-.connect-nav__link {
+.connect__link {
     display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -27,7 +27,7 @@
 }
 }
 
-.connect-nav__icon-envelope {
+.connect__icon-envelope {
     display: block;
     width: 16px;
     height: 12px;
@@ -36,7 +36,7 @@
     align-self: center;
 }
 
-.connect-nav__icon-smartphone {
+.connect__icon-smartphone {
     display: block;
     width: 10px;
     height: 16px;

@@ -8,35 +8,35 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
             integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
             crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="./dist/css/main.min.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body class="page">
 
     <!--Хедер-->
 <header class="page-header">
     <div class="nav-container">
-        <nav class="main-nav">
+        <nav class="header__nav">
             <a class="logo" href="./index.html">Web<span class="logo__text">Studio</span>
             </a>
 
-            <ul class="site-nav">
-                <li class="site-nav__item"><a href="./index.html" class="site-nav__link ">Студія</a></li>
-                <li class="site-nav__item"><a href="./portfolio.html" class="site-nav__link current">Портфоліо</a></li>
-                <li class="site-nav__item"><a href="" class="site-nav__link">Контакти</a></li>
+            <ul class="nav__list">
+                <li class="nav__item"><a href="./index.html" class="nav__link">Студія</a></li>
+                <li class="nav__item"><a href="./portfolio.html" class="nav__link  current">Портфоліо</a></li>
+                <li class="nav__item"><a href="" class="nav__link">Контакти</a></li>
             </ul>
         </nav>
-        <ul class="connect-nav">
-            <li class="connect-nav__item">
-                <a href="mailto:info@devstudio.com" class="connect-nav__link">
-                    <svg class="connect-nav__icon-envelope">
+        <ul class="header__connect">
+            <li class="connect__item">
+                <a href="mailto:info@devstudio.com" class="connect__link">
+                    <svg class="connect__icon-envelope">
                         <use href="./images/icons.svg#envelope" width="16" height="12"></use>
                     </svg>
                     info@devstudio.com
                 </a>
             </li>
-            <li class="connect-nav__item">
-                <a href="tel:+380961111111" class="connect-nav__link">
-                    <svg class="connect-nav__icon-smartphone">
+            <li class="connect__item">
+                <a href="tel:+380961111111" class="connect__link">
+                    <svg class="connect__icon-smartphone">
                         <use href="./images/icons.svg#smartphone" width="10" height="16"></use>
                     </svg>
                     +38 096 111 11 11
@@ -49,7 +49,7 @@
         <section class="portfolio">
             <div class="portfolio-container">
              <h1 class="portfolio__title">Наші проекти</h1>
-             <ul class="button-set">
+             <ul class="portfolio__button-set">
                  <li class="button-set__item"><button class="button-set__button" type="button">Усі</button></li>
                  <li class="button-set__item"><button class="button-set__button" type="button">Веб-сайти</button></li>
                  <li class="button-set__item"><button class="button-set__button" type="button">Додатки</button></li>
@@ -58,7 +58,7 @@
              </ul>
     
         <!--Projects-->
-             <ul class="projects-set flex-container">
+             <ul class="portfolio__projects-set flex-container">
                     <li class="project-card">
                      <a href="#" class="project-card__link">
                          <div class="project-card__image">

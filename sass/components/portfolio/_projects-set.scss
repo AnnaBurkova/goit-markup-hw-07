@@ -57,7 +57,8 @@
     color: $color-text-selection;
 
 
-    .project-card__link:hover &{
+    .project-card__link:hover &,
+    .project-card__link:focus &{
     opacity:1;
     transform: translateY(0);
 }

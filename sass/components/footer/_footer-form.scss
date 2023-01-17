@@ -24,9 +24,10 @@
     height: 50px;
     margin-right: 12px;
     padding: 16px;
+    background-color: $color-backround-hero;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;    
-    color: $color-text-main;
+    color: $color-text-selection;
 }
 
 .subscribe-form__button {

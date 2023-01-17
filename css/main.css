@@ -210,7 +210,7 @@ footer {
 
 .current {
   position: relative;
-  color: var(--accent-color);
+  color: #2196F3;
 }
 
 .current::after {
@@ -218,7 +218,6 @@ footer {
   position: absolute;
   bottom: -1px;
   right: 0px;
-  content: "";
   width: 100%;
   height: 4px;
   background-color: #2196F3;
@@ -233,7 +232,7 @@ footer {
   margin-left: auto;
 }
 
-.connect__item {
+.connect__item:not(:first-child) {
   margin-left: 40px;
 }
 
@@ -283,6 +282,7 @@ footer {
 
 /* Hero */
 .hero {
+  margin-top: 80px;
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: #C4C4C4;
@@ -692,9 +692,10 @@ footer {
   height: 50px;
   margin-right: 12px;
   padding: 16px;
+  background-color: #2F303A;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
-  color: #212121;
+  color: #FFFFFF;
 }
 
 .subscribe-form__button {
@@ -1114,7 +1115,7 @@ footer {
   background-color: rgba(33, 150, 243, 0.9);
   color: #FFFFFF;
 }
-.project-card__link:hover .project-card__overlay {
+.project-card__link:hover .project-card__overlay, .project-card__link:focus .project-card__overlay {
   opacity: 1;
   -webkit-transform: translateY(0);
           transform: translateY(0);
